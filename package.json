@@ -1,0 +1,25 @@
+{
+    "name": "jsbenchmarks",
+    "author": "Nathan Stitt",
+    "license": "MIT",
+    "private": true,
+    "version": "1.0.0",
+    "description": "a framework to test stuffs",
+    "main": "benchmark.js",
+    "scripts": {
+        "start": "node benchmark.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/nathanstitt/jsbenchmarks.git"
+    },
+    "bugs": {
+        "url": "https://github.com/nathanstitt/jsbenchmarks/issues"
+    },
+    "homepage": "https://github.com/nathanstitt/jsbenchmarks#README.md",
+    "dependencies": {
+        "benchmark": "^2.1.1",
+        "lodash": "^4.15.0",
+        "microtime": "^2.1.1"
+    }
+}
